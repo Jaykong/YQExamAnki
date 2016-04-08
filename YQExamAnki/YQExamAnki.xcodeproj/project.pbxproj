@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0845071CB7C6D100AED708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845061CB7C6D100AED708 /* main.m */; };
+		4D08450A1CB7C6D100AED708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845091CB7C6D100AED708 /* AppDelegate.m */; };
+		4D08450D1CB7C6D100AED708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08450C1CB7C6D100AED708 /* ViewController.m */; };
+		4D0845101CB7C6D100AED708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D08450E1CB7C6D100AED708 /* Main.storyboard */; };
+		4D0845121CB7C6D100AED708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0845111CB7C6D100AED708 /* Assets.xcassets */; };
+		4D0845151CB7C6D100AED708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0845131CB7C6D100AED708 /* LaunchScreen.storyboard */; };
+		4D0845201CB7C6D100AED708 /* YQExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08451F1CB7C6D100AED708 /* YQExamAnkiTests.m */; };
+		4D08452B1CB7C6D100AED708 /* YQExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08452A1CB7C6D100AED708 /* YQExamAnkiUITests.m */; };
+		4D08453B1CB7C8DF00AED708 /* EAPaperInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08453A1CB7C8DF00AED708 /* EAPaperInfoViewController.m */; };
+		4D08453E1CB7C91300AED708 /* EABookmarkQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08453D1CB7C91300AED708 /* EABookmarkQuestionViewController.m */; };
+		4D0845411CB7C92300AED708 /* EAWrongQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845401CB7C92300AED708 /* EAWrongQuestionViewController.m */; };
+		4D0845441CB7C93600AED708 /* EAFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845431CB7C93600AED708 /* EAFlashCardViewController.m */; };
+		4D0845471CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845461CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m */; };
+		4D08454A1CB7C97200AED708 /* EAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0845491CB7C97200AED708 /* EAAboutViewController.m */; };
+		4D08454D1CB7C98500AED708 /* EAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08454C1CB7C98500AED708 /* EAShareViewController.m */; };
+		4D0845501CB7C99400AED708 /* EAImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D08454F1CB7C99400AED708 /* EAImportViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D08451C1CB7C6D100AED708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0844FA1CB7C6D100AED708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0845011CB7C6D100AED708;
+			remoteInfo = YQExamAnki;
+		};
+		4D0845271CB7C6D100AED708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0844FA1CB7C6D100AED708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0845011CB7C6D100AED708;
+			remoteInfo = YQExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0845021CB7C6D100AED708 /* YQExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0845061CB7C6D100AED708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0845081CB7C6D100AED708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D0845091CB7C6D100AED708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D08450B1CB7C6D100AED708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D08450C1CB7C6D100AED708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D08450F1CB7C6D100AED708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D0845111CB7C6D100AED708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D0845141CB7C6D100AED708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D0845161CB7C6D100AED708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D08451B1CB7C6D100AED708 /* YQExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08451F1CB7C6D100AED708 /* YQExamAnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQExamAnkiTests.m; sourceTree = "<group>"; };
+		4D0845211CB7C6D100AED708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0845261CB7C6D100AED708 /* YQExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08452A1CB7C6D100AED708 /* YQExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQExamAnkiUITests.m; sourceTree = "<group>"; };
+		4D08452C1CB7C6D100AED708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0845391CB7C8DF00AED708 /* EAPaperInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAPaperInfoViewController.h; sourceTree = "<group>"; };
+		4D08453A1CB7C8DF00AED708 /* EAPaperInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAPaperInfoViewController.m; sourceTree = "<group>"; };
+		4D08453C1CB7C91300AED708 /* EABookmarkQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EABookmarkQuestionViewController.h; sourceTree = "<group>"; };
+		4D08453D1CB7C91300AED708 /* EABookmarkQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EABookmarkQuestionViewController.m; sourceTree = "<group>"; };
+		4D08453F1CB7C92300AED708 /* EAWrongQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAWrongQuestionViewController.h; sourceTree = "<group>"; };
+		4D0845401CB7C92300AED708 /* EAWrongQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAWrongQuestionViewController.m; sourceTree = "<group>"; };
+		4D0845421CB7C93600AED708 /* EAFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFlashCardViewController.h; sourceTree = "<group>"; };
+		4D0845431CB7C93600AED708 /* EAFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFlashCardViewController.m; sourceTree = "<group>"; };
+		4D0845451CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.h"; sourceTree = "<group>"; };
+		4D0845461CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m"; sourceTree = "<group>"; };
+		4D0845481CB7C97200AED708 /* EAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAboutViewController.h; sourceTree = "<group>"; };
+		4D0845491CB7C97200AED708 /* EAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAboutViewController.m; sourceTree = "<group>"; };
+		4D08454B1CB7C98500AED708 /* EAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAShareViewController.h; sourceTree = "<group>"; };
+		4D08454C1CB7C98500AED708 /* EAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAShareViewController.m; sourceTree = "<group>"; };
+		4D08454E1CB7C99400AED708 /* EAImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAImportViewController.h; sourceTree = "<group>"; };
+		4D08454F1CB7C99400AED708 /* EAImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAImportViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0844FF1CB7C6D100AED708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845181CB7C6D100AED708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845231CB7C6D100AED708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0844F91CB7C6D100AED708 = {
+			isa = PBXGroup;
+			children = (
+				4D0845041CB7C6D100AED708 /* YQExamAnki */,
+				4D08451E1CB7C6D100AED708 /* YQExamAnkiTests */,
+				4D0845291CB7C6D100AED708 /* YQExamAnkiUITests */,
+				4D0845031CB7C6D100AED708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0845031CB7C6D100AED708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0845021CB7C6D100AED708 /* YQExamAnki.app */,
+				4D08451B1CB7C6D100AED708 /* YQExamAnkiTests.xctest */,
+				4D0845261CB7C6D100AED708 /* YQExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0845041CB7C6D100AED708 /* YQExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				4D0845081CB7C6D100AED708 /* AppDelegate.h */,
+				4D0845091CB7C6D100AED708 /* AppDelegate.m */,
+				4D08450B1CB7C6D100AED708 /* ViewController.h */,
+				4D08450C1CB7C6D100AED708 /* ViewController.m */,
+				4D0845381CB7C8C000AED708 /* New Group */,
+				4D08450E1CB7C6D100AED708 /* Main.storyboard */,
+				4D0845111CB7C6D100AED708 /* Assets.xcassets */,
+				4D0845131CB7C6D100AED708 /* LaunchScreen.storyboard */,
+				4D0845161CB7C6D100AED708 /* Info.plist */,
+				4D0845051CB7C6D100AED708 /* Supporting Files */,
+			);
+			path = YQExamAnki;
+			sourceTree = "<group>";
+		};
+		4D0845051CB7C6D100AED708 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0845061CB7C6D100AED708 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D08451E1CB7C6D100AED708 /* YQExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D08451F1CB7C6D100AED708 /* YQExamAnkiTests.m */,
+				4D0845211CB7C6D100AED708 /* Info.plist */,
+			);
+			path = YQExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		4D0845291CB7C6D100AED708 /* YQExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D08452A1CB7C6D100AED708 /* YQExamAnkiUITests.m */,
+				4D08452C1CB7C6D100AED708 /* Info.plist */,
+			);
+			path = YQExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+		4D0845381CB7C8C000AED708 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4D0845391CB7C8DF00AED708 /* EAPaperInfoViewController.h */,
+				4D08453A1CB7C8DF00AED708 /* EAPaperInfoViewController.m */,
+				4D08453C1CB7C91300AED708 /* EABookmarkQuestionViewController.h */,
+				4D08453D1CB7C91300AED708 /* EABookmarkQuestionViewController.m */,
+				4D08453F1CB7C92300AED708 /* EAWrongQuestionViewController.h */,
+				4D0845401CB7C92300AED708 /* EAWrongQuestionViewController.m */,
+				4D0845421CB7C93600AED708 /* EAFlashCardViewController.h */,
+				4D0845431CB7C93600AED708 /* EAFlashCardViewController.m */,
+				4D0845451CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.h */,
+				4D0845461CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m */,
+				4D0845481CB7C97200AED708 /* EAAboutViewController.h */,
+				4D0845491CB7C97200AED708 /* EAAboutViewController.m */,
+				4D08454B1CB7C98500AED708 /* EAShareViewController.h */,
+				4D08454C1CB7C98500AED708 /* EAShareViewController.m */,
+				4D08454E1CB7C99400AED708 /* EAImportViewController.h */,
+				4D08454F1CB7C99400AED708 /* EAImportViewController.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0845011CB7C6D100AED708 /* YQExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D08452F1CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnki" */;
+			buildPhases = (
+				4D0844FE1CB7C6D100AED708 /* Sources */,
+				4D0844FF1CB7C6D100AED708 /* Frameworks */,
+				4D0845001CB7C6D100AED708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQExamAnki;
+			productName = YQExamAnki;
+			productReference = 4D0845021CB7C6D100AED708 /* YQExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D08451A1CB7C6D100AED708 /* YQExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0845321CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnkiTests" */;
+			buildPhases = (
+				4D0845171CB7C6D100AED708 /* Sources */,
+				4D0845181CB7C6D100AED708 /* Frameworks */,
+				4D0845191CB7C6D100AED708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D08451D1CB7C6D100AED708 /* PBXTargetDependency */,
+			);
+			name = YQExamAnkiTests;
+			productName = YQExamAnkiTests;
+			productReference = 4D08451B1CB7C6D100AED708 /* YQExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D0845251CB7C6D100AED708 /* YQExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0845351CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnkiUITests" */;
+			buildPhases = (
+				4D0845221CB7C6D100AED708 /* Sources */,
+				4D0845231CB7C6D100AED708 /* Frameworks */,
+				4D0845241CB7C6D100AED708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0845281CB7C6D100AED708 /* PBXTargetDependency */,
+			);
+			name = YQExamAnkiUITests;
+			productName = YQExamAnkiUITests;
+			productReference = 4D0845261CB7C6D100AED708 /* YQExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0844FA1CB7C6D100AED708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "杨庆";
+				TargetAttributes = {
+					4D0845011CB7C6D100AED708 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 786Y79WR39;
+					};
+					4D08451A1CB7C6D100AED708 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 786Y79WR39;
+						TestTargetID = 4D0845011CB7C6D100AED708;
+					};
+					4D0845251CB7C6D100AED708 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 786Y79WR39;
+						TestTargetID = 4D0845011CB7C6D100AED708;
+					};
+				};
+			};
+			buildConfigurationList = 4D0844FD1CB7C6D100AED708 /* Build configuration list for PBXProject "YQExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0844F91CB7C6D100AED708;
+			productRefGroup = 4D0845031CB7C6D100AED708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0845011CB7C6D100AED708 /* YQExamAnki */,
+				4D08451A1CB7C6D100AED708 /* YQExamAnkiTests */,
+				4D0845251CB7C6D100AED708 /* YQExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0845001CB7C6D100AED708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0845151CB7C6D100AED708 /* LaunchScreen.storyboard in Resources */,
+				4D0845121CB7C6D100AED708 /* Assets.xcassets in Resources */,
+				4D0845101CB7C6D100AED708 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845191CB7C6D100AED708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845241CB7C6D100AED708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0844FE1CB7C6D100AED708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0845471CB7C96200AED708 /* EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController EAFeedbackViewController.m in Sources */,
+				4D0845411CB7C92300AED708 /* EAWrongQuestionViewController.m in Sources */,
+				4D08454A1CB7C97200AED708 /* EAAboutViewController.m in Sources */,
+				4D08450D1CB7C6D100AED708 /* ViewController.m in Sources */,
+				4D08454D1CB7C98500AED708 /* EAShareViewController.m in Sources */,
+				4D08453E1CB7C91300AED708 /* EABookmarkQuestionViewController.m in Sources */,
+				4D08450A1CB7C6D100AED708 /* AppDelegate.m in Sources */,
+				4D0845071CB7C6D100AED708 /* main.m in Sources */,
+				4D0845501CB7C99400AED708 /* EAImportViewController.m in Sources */,
+				4D0845441CB7C93600AED708 /* EAFlashCardViewController.m in Sources */,
+				4D08453B1CB7C8DF00AED708 /* EAPaperInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845171CB7C6D100AED708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0845201CB7C6D100AED708 /* YQExamAnkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0845221CB7C6D100AED708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D08452B1CB7C6D100AED708 /* YQExamAnkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D08451D1CB7C6D100AED708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0845011CB7C6D100AED708 /* YQExamAnki */;
+			targetProxy = 4D08451C1CB7C6D100AED708 /* PBXContainerItemProxy */;
+		};
+		4D0845281CB7C6D100AED708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0845011CB7C6D100AED708 /* YQExamAnki */;
+			targetProxy = 4D0845271CB7C6D100AED708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D08450E1CB7C6D100AED708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D08450F1CB7C6D100AED708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0845131CB7C6D100AED708 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0845141CB7C6D100AED708 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D08452D1CB7C6D100AED708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D08452E1CB7C6D100AED708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0845301CB7C6D100AED708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D0845311CB7C6D100AED708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D0845331CB7C6D100AED708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQExamAnki.app/YQExamAnki";
+			};
+			name = Debug;
+		};
+		4D0845341CB7C6D100AED708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQExamAnki.app/YQExamAnki";
+			};
+			name = Release;
+		};
+		4D0845361CB7C6D100AED708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQExamAnki;
+			};
+			name = Debug;
+		};
+		4D0845371CB7C6D100AED708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yq.YQExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQExamAnki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0844FD1CB7C6D100AED708 /* Build configuration list for PBXProject "YQExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D08452D1CB7C6D100AED708 /* Debug */,
+				4D08452E1CB7C6D100AED708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D08452F1CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0845301CB7C6D100AED708 /* Debug */,
+				4D0845311CB7C6D100AED708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0845321CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0845331CB7C6D100AED708 /* Debug */,
+				4D0845341CB7C6D100AED708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0845351CB7C6D100AED708 /* Build configuration list for PBXNativeTarget "YQExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0845361CB7C6D100AED708 /* Debug */,
+				4D0845371CB7C6D100AED708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0844FA1CB7C6D100AED708 /* Project object */;
+}
